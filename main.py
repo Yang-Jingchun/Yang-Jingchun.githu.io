@@ -99,7 +99,7 @@ class RocketUpdate:
     self.y=250
     self.img=p5.loadImage('assets/rocket update.png')
 
-  def draw(self, width=80, height=300):
+  def draw(self, width=150, height=300):
     p5.tint(255, 255)
     p5.push()
     p5.translate(self.x,self.y)
